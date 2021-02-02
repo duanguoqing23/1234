@@ -64,7 +64,7 @@ $(function () {
         localStorage.setItem("token", res.token);
 
         //登录成功后跳转首页
-        location.herf = "/index.html";
+        location.href = "/index.html";
       },
     });
   });
